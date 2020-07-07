@@ -29,3 +29,7 @@
   8. **Database relations:** você vai estar criando uma nova aplicação para aprender novas coisas e treinar o que você aprendeu até agora no Node.js junto ao TypeScript, incluindo o uso de banco de dados com o TypeORM, e relacionamentos ManyToMany.
   9. **GoRestaurant Web:** desenvolver mais uma aplicação, a GoRestaurant. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, praticando o conceito de CRUD (Create, Read, Update, Delete).
   10. **GoRestaurant Mobile:** você irá desenvolver mais uma aplicação, a GoRestaurant, só que dessa vez a versão mobile para o cliente. Agora você irá praticar o que você aprendeu até agora no React Native junto com TypeScript, para criar um pequeno app para pedidos de comida.
+
+## Bônus
+
+- **Flexbox:** módulo bônus sobre Flexbox. Recriando a interface web do Twitter feita com Flexbox.
