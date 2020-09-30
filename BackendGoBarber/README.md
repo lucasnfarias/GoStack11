@@ -6,7 +6,7 @@
 
   - **GET /providers/**
     - lista todos os provedores de serviço;
- ```
+```
     curl --request GET \
     --url http://localhost:3333/providers \
     --header 'authorization: Bearer session-token'
@@ -84,6 +84,24 @@
 
   - **POST /appointments/**
     - criar um novo agendamento
+    - Exemplo de corpo da requisição (JSON)
+```
+    {
+      "provider_id": "6849f7asd-98c8-4890-8e18-137f09739d0e",
+      "date": "2020-05-27 14:00:00"
+    }
+```
+    - Exemplo de resposta
+```
+    {
+      "provider_id": "6849f7asd-98c8-4890-8e18-137f09739d0e",
+      "user_id": "af90b13a-2702-427a-bb30-a4beb9900535",
+      "date": "2020-05-27T17:00:00.000Z",
+      "id": "74ba831f-7728-4b85-8b04-f9eec43fabf4",
+      "created_at": "2020-05-26T00:43:13.071Z",
+      "updated_at": "2020-05-26T00:43:13.071Z"
+    }
+```
   - **GET /appointments/me**
     - lista agendamentos de um provedor específico;
   ```
